@@ -1,0 +1,52 @@
+{
+    "type": "array",
+    "items": {
+      "type": "object",
+      "properties": {
+        "Name": {
+          "type": "string"
+        },
+        "Adress": {
+          "type": "string"
+        },
+        "Foundation_date": {
+          "type": "integer"
+        },
+        "Total_enrollment": {
+          "type": "integer"
+        },
+        "Programs": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "Program_id": {
+                "type": "string"
+              },
+              "Name": {
+                "type": "string"
+              },
+              "Courses": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "Course_id": {
+                      "type": "string"
+                    },
+                    "Name": {
+                      "type": "string"
+                    },
+                    "Credits": {
+                      "type": "integer"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,88 @@
+[
+    {
+        "Name" : "University of Passau",
+        "Adress" : "Innstraße 41, 94032 Passau",
+        "Foundation_date" : 1978,
+        "Total_enrollment" : 11957,
+        "Programs" : [
+            {
+                "Program_id" : "P001",
+                "Name" : "Data Science",
+                "Courses" : [
+                    {
+                        "Course_id" : "C001",
+                        "Name" : "Introduction to data science",
+                        "Credits" : 5
+                    },
+                    {
+                        "Course_id" : "C002",
+                        "Name" : "Introduction to Artificial Intellegence",
+                        "Credits" : 6
+
+                    }
+                ]
+            },
+            {
+                "Program_id" : "P002",
+                "Name" : "Computer Science",
+                "Courses" : [
+                    {
+                        "Course_id" : "C003",
+                        "Name" : "Multimedia adatabases",
+                        "Credits" : 5
+                    },
+                    {
+                        "Course_id" : "C004",
+                        "Name" : "Advanced It security",
+                        "Credits" : 7
+
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Name" : "The Ludwig Maximilian University of Munich",
+        "Adress" : "Geschwister-Scholl-Platz 1, 80539 München",
+        "Foundation_date" : 1472,
+        "Total_enrollment" : 51420,
+        "Programs" : [
+            {
+                "Program_id" : "P011",
+                "Name" : "International Economics and Business",
+                "Courses" : [
+                    {
+                        "Course_id" : "C011",
+                        "Name" : "Methods and Theories of Development Research",
+                        "Credits" : 6
+                    },
+                    {
+                        "Course_id" : "C012",
+                        "Name" : "Introduction to Quantitative Research Methods",
+                        "Credits" : 5
+
+                    }
+                ]
+            },
+            {
+                "Program_id" : "P012",
+                "Name" : "Development Studies",
+                "Courses" : [
+                    {
+                        "Course_id" : "C013",
+                        "Name" : "Kommunikationsgeschichte",
+                        "Credits" : 6
+                    },
+                    {
+                        "Course_id" : "C014",
+                        "Name" : "Grundlagen von Informationssystemen",
+                        "Credits" : 5
+
+                    }
+                ]
+            }
+
+        ]
+
+    }
+]
